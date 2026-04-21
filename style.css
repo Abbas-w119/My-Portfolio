@@ -40,7 +40,7 @@ body{
     color: rgb(8, 184, 243);
 }
 
-.About {
+#about {
   margin-bottom: 15px;
   padding: 40px 20px;
 }
@@ -193,7 +193,7 @@ body{
   }
 }
 
-.Project{
+#projects{
   margin-bottom: 13px;
   padding: 20px;
 }
@@ -231,4 +231,49 @@ body{
   font-weight: 600;
   margin-bottom: 3px;
 }
+html {
+  scroll-behavior: smooth;
+}
 
+#contact {
+  margin-bottom: 15px;
+  padding: 40px 20px; /* more breathing room */
+}
+
+.contact-header {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 12px; /* ✅ added */
+}
+
+.contact-sub {
+  text-align: center;  /* ✅ new addition */
+  color: #888;
+  font-size: 15px;
+  margin-bottom: 36px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card {
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: #dcdcc9;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* ✅ added base shadow */
+  transition: transform 0.4s ease, box-shadow 0.4s ease; /* ✅ fixed */
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}

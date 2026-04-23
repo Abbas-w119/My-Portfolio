@@ -1,7 +1,4 @@
-body{
-    color: white;
-    background-color: aqua;
-}
+
 .navbar{
     box-shadow: 2px;
     background: #0F172A;
@@ -11,7 +8,7 @@ body{
     max-width: 1000;
     text-align: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     display: flex;
     margin: auto;
 }
@@ -217,6 +214,7 @@ body{
   border-radius: 10px;
   background: #dcdcc9;
   width: 350px;
+  transition: 0.4s;
 }
 .project-card img{
   width: 100%;
@@ -237,18 +235,18 @@ html {
 
 #contact {
   margin-bottom: 15px;
-  padding: 40px 20px; /* more breathing room */
+  padding: 40px 20px; /
 }
 
 .contact-header {
   font-weight: 700;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 12px; /* ✅ added */
+  margin-bottom: 12px; 
 }
 
 .contact-sub {
-  text-align: center;  /* ✅ new addition */
+  text-align: center;  
   color: #888;
   font-size: 15px;
   margin-bottom: 36px;
@@ -276,4 +274,21 @@ html {
 .contact-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+
+.foot{
+  padding: 20px;
+  background: #0F172A;
+  color: #0D9488;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+.foot-line{
+  font-weight: 700;
+  font-size: larger;
+}
+.foot-add{
+  gap: 2px;
+  font-size: medium;
 }
